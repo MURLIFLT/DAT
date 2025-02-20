@@ -59,11 +59,11 @@ with st.sidebar:
 
     if stateful_button("***Follow Me***👍😎",key="foll"):
         linkedin = st.image("linkedin.png")
-        # st.write("[Linkedin](https://www.linkedin.com/in/sandipsingh-/)")
+
         insta = st.image("insta.png")
-        # st.write("[Instagram](https://www.instagram.com/sandip888singh/)")
+        
         youtube = st.image("youtube.png")
-        # st.write("[Youtube](https://www.youtube.com/@programmingbird2896)")
+        
     
 try:
     with st.expander("**Uploaded/Original Data**"):
